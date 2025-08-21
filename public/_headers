@@ -1,0 +1,17 @@
+/*
+  X-Frame-Options: ALLOWALL
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: frame-ancestors 'self' https://autokeren-nyai.web.app https://localhost:* https://127.0.0.1:* http://localhost:* http://127.0.0.1:*
+
+/*.js
+  Content-Type: text/javascript; charset=utf-8
+
+/*.mjs  
+  Content-Type: text/javascript; charset=utf-8
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+/*.svg
+  Content-Type: image/svg+xml
