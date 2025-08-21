@@ -1,3 +1,11 @@
 /*
   X-Frame-Options: ALLOWALL
-  Content-Security-Policy: frame-ancestors *
+  Content-Security-Policy: frame-ancestors 'self' https://nyai.web.app https://localhost:* https://127.0.0.1:* http://localhost:* http://127.0.0.1:*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/*.js
+  Content-Type: text/javascript; charset=utf-8
+  
+/*.css
+  Content-Type: text/css; charset=utf-8
